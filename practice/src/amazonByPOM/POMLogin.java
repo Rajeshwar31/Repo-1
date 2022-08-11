@@ -54,7 +54,7 @@ public class POMLogin
 	
 	public void sendPassword()
 	{
-		password.sendKeys("Rajeshwar@1");
+		password.sendKeys("");
 	}
 	
 	
