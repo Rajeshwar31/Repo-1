@@ -76,12 +76,12 @@ public class ProductSelection
 		screenshotMethod();
 		
 		WebElement username = driver.findElement(By.xpath("//input[@class='_2IX_2- VJZDxU']"));
-		username.sendKeys("7776983259");
+		username.sendKeys("");
 //		Thread.sleep(2000);
 		System.out.println("Valid mobile number submitted.");
 		
 		WebElement password = driver.findElement(By.xpath("//input[@class='_2IX_2- _3mctLh VJZDxU']"));
-		password.sendKeys("Rajeshwar@1");
+		password.sendKeys("");
 //		Thread.sleep(2000);
 		System.out.println("Valid password submitted.");
 		screenshotMethod();
