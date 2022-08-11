@@ -85,7 +85,7 @@ public class HoverAndScroll {
 		WebElement password = driver.findElement(By.xpath("//input[@id='ap_password']"));
 		boolean passwordTextbox = password.isEnabled();
 		System.out.println("Password text box is enabled- "+ passwordTextbox);
-		password.sendKeys("Rajeshwar@1");
+		password.sendKeys("");
 		System.out.println("valid Password provided");
 		
 		WebElement signInB = driver.findElement(By.xpath("(//html//div//span//span//input)[1]"));
