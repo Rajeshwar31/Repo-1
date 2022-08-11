@@ -32,7 +32,7 @@ public class AmazonLogIn
 		Thread.sleep(3000);
 		
 		WebElement password = driver.findElement(By.id("ap_password"));
-		password.sendKeys("Rajeshwar@1");
+		password.sendKeys("");
 		
 		WebElement submitButton = driver.findElement(By.id("signInSubmit"));
 		submitButton.click();
