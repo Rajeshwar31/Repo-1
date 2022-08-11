@@ -37,7 +37,7 @@ public class BasicLogin
 //		Thread.sleep(2000);
 		
 		WebElement password = driver.findElement(By.id("login_password1"));
-		                                                                                                                    password.sendKeys("Mechanical@1");
+		                                                                                                                    password.sendKeys("Mec");
 //		Thread.sleep(2000);
 		
 		WebElement submitB = driver.findElement(By.xpath("(//div[@class='btn51Btn btn51RipplePrimary btn51Primary'])[1]"));
@@ -45,13 +45,13 @@ public class BasicLogin
 //		Thread.sleep(2000);
 		
 		WebElement pininput1 = driver.findElement(By.xpath("(//input[@type='number'])[1]"));
-		                                                                                                                              pininput1.sendKeys("3");
+		                                                                                                                              pininput1.sendKeys("");
 		
 		WebElement pininput2 = driver.findElement(By.xpath("(//input[@type='number'])[2]"));
-		                                                                                                                                 pininput2.sendKeys("1");
+		                                                                                                                                 pininput2.sendKeys("");
 		
 		WebElement pininput3 = driver.findElement(By.xpath("(//input[@type='number'])[3]"));
-		                                                                                                                                      pininput3.sendKeys("0");
+		                                                                                                                                      pininput3.sendKeys("");
 		
 		WebElement pininput4 = driver.findElement(By.xpath("(//input[@type='number'])[4]"));
 		                                                                                                                                   pininput4.sendKeys("1");
