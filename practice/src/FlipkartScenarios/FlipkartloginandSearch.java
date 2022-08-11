@@ -23,10 +23,10 @@ public class FlipkartloginandSearch {
 		driver.get("https://www.flipkart.com/");
 		
 		WebElement emailid = driver.findElement(By.xpath("(//html//div//form//div//input)[7]"));
-		emailid.sendKeys("7776983259");
+		emailid.sendKeys("");
 		
 		WebElement password = driver.findElement(By.xpath("//input[contains(@type,'password')]"));
-		password.sendKeys("Rajeshwar@1");
+		password.sendKeys("");
 		
 		WebElement signIn = driver.findElement(By.xpath("(//button[contains(@type,'submit')])[2]"));
 		signIn.click();
